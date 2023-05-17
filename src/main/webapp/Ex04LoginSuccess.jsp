@@ -8,7 +8,7 @@
 </head>
 <body>
 	
-		<%=request.getAttribute("id")%>님 환영합니다.
+		<%=/* request.getAttribute("id") */request.getAttribute("id")%>님 환영합니다.
 	
 </body>
 </html>
